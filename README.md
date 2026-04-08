@@ -153,6 +153,6 @@ See the Codabench challenge page for dates and deadlines.
 
 ## Communication
 
-Primarly: Slack #poject channel
+Primarly: Slack #project channel
 
 Email: t.rahier at criteo.com | l.mader at criteo.com
