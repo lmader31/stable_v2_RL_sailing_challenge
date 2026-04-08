@@ -1,0 +1,51 @@
+# Exclude private content from the repository
+
+# Exclude all files and directories with names starting with "private"
+**/private*
+**/private*/
+private*/
+
+# Explicitly exclude private agents
+src/agents/private_agent_smart.py
+**/agents/private*
+
+# Common Python exclusions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Virtual environment
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Exclude files in agent directory ending with a number
+agent/*[0-9].py private_notebooks/
